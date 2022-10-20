@@ -23,9 +23,34 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "./node_modules/@angular/material/prebuilt-themes/purple-green.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css",
+              "src/assets/template/css/style.css"
             ],
-            "scripts": []
+
+            "scripts": [
+
+              "node_modules/jquery/dist/jquery.min.js",
+
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "src/assets/template/vendors/base/vendor.bundle.base.js",
+              "src/assets/template/vendors/chart.js/Chart.min.js",
+              "src/assets/template/vendors/datatables.net/jquery.dataTables.js",
+              "src/assets/template/vendors/datatables.net-bs4/dataTables.bootstrap4.js",
+              "src/assets/template/js/Chart.min.js",
+              "src/assets/template/js/dashboard.js",
+              "src/assets/template/js/data-table.js",
+              "src/assets/template/js/dataTables.bootstrap4.js",
+              "src/assets/template/js/documentation.js",
+              "src/assets/template/js/file-upload.js",
+              "src/assets/template/js/hoverable-collapse.js",
+              "src/assets/template/js/jquery.cookie.js",
+              "src/assets/template/js/jquery.dataTables.js",
+              "src/assets/template/js/off-canvas.js",
+              "src/assets/template/js/tabs.js",
+              "src/assets/template/js/template.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -90,6 +115,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/purple-green.css",
               "src/styles.css"
             ],
             "scripts": []
